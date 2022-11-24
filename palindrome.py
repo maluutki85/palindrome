@@ -1,8 +1,8 @@
 def chcek_palindrome(x):
     if (x == x[::-1]):
-        return "True"
+        return True
     else:
-        return "False"
+        return False
 x = input("Wprowdź słowo:")
 print(chcek_palindrome(x))
 
