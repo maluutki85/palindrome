@@ -3,3 +3,5 @@ def chcek_palindrome(x):
         return "True"
     else:
         return "False"
+x = input("Wprowdź słowo:")
+print(chcek_palindrome(x))
